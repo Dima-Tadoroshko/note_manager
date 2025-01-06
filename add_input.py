@@ -13,7 +13,7 @@ issue_date = input("Введите дату истечения заметки в
 title1 = input("Введите первый заголовок заметки: ")
 title2 = input("Введите второй заголовок заметки: ")
 title3 = input("Введите третий заголовок заметки: ")
-titles = (title1, title2, title3)
+titles = [title1, title2, title3]
 # Если пользователь ввел Имя и отчество с маленькой буквы перевыедем их в большие
 username_new = username.upper()
 surname_new = surname.upper()
